@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia;
+  }
+  #first_button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 105px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 100;
+    transition: opacity 0.15s;
+  }
+  #first_button:hover {
+    opacity: 0.75;
+  }
+  #first_button:active {
+    opacity: 0.6;
+  }
+  #second_button {
+    background-color: white;
+    color: #2962ff;
+    border-color: #2962ff;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    height: 36px;
+    width: 80px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.4s, color 0.4s;
+  }
+  #second_button:hover {
+    background-color: #2962ff;
+    color: white;
+  }
+  #second_button:active {
+    opacity: 0.7;
+  }
+  #third_button {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    border: none;
+    width: 90px;
+    height: 36px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+  }
+  #third_button:hover {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  }
+  #third_button:active {
+    opacity: 0.7;
+  }
